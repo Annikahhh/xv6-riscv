@@ -8,6 +8,12 @@
 #include "vm.h"
 
 uint64
+sys_getNPROC(void)
+{
+  return NPROC;
+}
+
+uint64
 sys_exit(void)
 {
   int n;
